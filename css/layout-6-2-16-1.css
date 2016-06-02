@@ -1,0 +1,384 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+.my-mail {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.my-text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.my-pass {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.my-textarea {
+    width: 100%;
+	height:80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.my-btn {
+    background-color: #4d90fe;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+	color:white;
+}
+
+.cancelbtn:hover, 
+.cancelbtn:focus {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+  -webkit-transition:all 0s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  transition:all 1s ease;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.my-container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+/* The Modal (background) */
+.modal-log {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+	bottom:0;
+	right:0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 20px;
+}
+
+/* The Modal (background) */
+.modal2-to-fp{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+	bottom:0;
+	right:0;
+    background-color: rgb(103, 58, 183); /* Fallback color */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.my-close {
+    /* Position it in the top right corner outside of the modal */
+	float:right;
+	margin-top:-10px;
+	margin-right:10px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.my-close:hover,
+.my-close:focus {
+    color: red;
+    cursor: pointer;
+  -webkit-transition:all 0s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  transition:all 1s ease;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("http://www.calibreworks.com/uploads/2015/12/10langkah_Image08.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("http://www.hsmedia.no/uploads/library/bg-contact-33degrees.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://static.pexels.com/photos/3847/jetty-landing-stage-sea-sky.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("http://blogs.itb.ac.id/el52162s1t2013d201423213094muktiwinanda/files/2013/11/cloud-1.jpg");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("http://3.bp.blogspot.com/-l0E8APlB4cc/T7I9Nx5jEJI/AAAAAAAAFbg/kcFBTj_fAAg/s1600/Black-Wallpaper-04mapamundi.jpg");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-color: #ddd;
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.bortime {
+  position:relative;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+a{
+	text-decoration:none;
+	color: deeppink;
+}
+
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+	color: deeppink;
+	color:lightblue;
+	-webkit-transition:all 0s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+}
+
+.bortime:hover {
+  background-color: #fff;
+  color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  cursor:pointer;
+  -webkit-transition:all 0s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  transition:all 1s ease;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.my-back-to-top {
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    text-decoration: none;
+    padding: 0.5em;
+    display: none;
+    cursor:pointer;
+}
+
+/**! Nav **/
+.my-navbar{
+	background:white;
+	z-index:1;
+	border-bottom:1px solid #ccc;
+}
+
+.my-navbar a{
+	color:#2d2d2d;
+}
+
+.my-navbar-inverse {
+	color:#2d2d2d;
+}
+
+.icn-nav{
+	cursor: pointer;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url("https://3.bp.blogspot.com/-7oIPwahYaNM/V0Eif-3KbyI/AAAAAAAABss/nDNlwyjGgdgyP4ATUNEu0JnOyTgns-9FQCLcB/s1600/mobile-nav.png");
+}
+
+.icn-nav:hover,
+.icn-nav:active{
+	cursor: pointer;
+    width: 40px;
+    height: 40px;
+    float: left;
+    background: url("https://4.bp.blogspot.com/-bmcCLRpKfl8/V0Ei_t96nTI/AAAAAAAABsw/VS2GDeyDZiAi6ss_9q0VtleGEcYa6hsTQCLcB/s1600/mobile-nav-hov.png");
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.txt-red{
+	color:red;
+}
+
+.txt-blue{
+	color:blue;
+}
+
+.txt-yellow{
+	color:yellow;
+}
+
+.txt-purple{
+	color:purple;
+}
+
+.txt-green{
+	color:green;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+
+.my-space{
+	height:80px;
+}
+
+.my-td{
+	padding:10px;
+}
+
+.my-table{
+	margin:10px auto;
+	text-align:left;
+	width:100%;
+    height:530px;
+    overflow-y:auto;
+}
